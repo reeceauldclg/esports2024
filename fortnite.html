@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/clydeLogo.png" type="image/x-icon">
+    <script src="js/sideNav.js"></script>
+    <title>Fortnite</title>
+</head>
+
+<body>
+    <header>
+        <div class="burger">
+            <span onclick="openNav()">
+                <button>
+                    <img src="images/burger.svg" alt="">
+                </button>
+            </span>
+        </div>
+        <div class="headerText">
+            <img src="images/xtreme.svg" alt="">
+        </div>
+        <a href="index.html">
+            <img src="images/clydeLogo.png" alt="Logo">
+        </a>
+    </header>
+    <div id="pageSideNav" class="sideNav">
+        <img src="images/clydeLogo.png" alt="">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Booking</a>
+        <a href="information.html">Information</a>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="events.html">Events</a>
+            </li>
+            <li>
+                <a href="booking.html">Booking</a>
+            </li>
+            <li>
+                <a href="information.html">Information</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="textContainerFn">
+        <div class="text1Fn">
+            <div class="slideshowContainer">
+                <div class="evImg fade">
+                    <img src="images/fn.jpg" alt="">
+                </div>
+                <div class="evImg fade">
+                    <img src="images/fn/fn1.jpg" alt="">
+                </div>
+                <div class="evImg fade">
+                    <img src="images/fn/fn2.jpg" alt="">
+                </div>
+                <div class="evImg fade">
+                    <img src="images/fn/fn3.jpg" alt="">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <script src="js/imgSlide.js"></script>
+            <div class="fnText">
+                <p>Fortnite is an online battle royale video game and game platform developed by Epic Games It was
+                    officially released on July 21, 2017.
+                    <br>
+                    <br>
+                    The event will take place in the SEC Centre - Loch Suite.
+                    <br>
+                    <br>
+                    The event will be hosted in a bracket style knockout tournament with 20 teams of 2 competing for the
+                    grand prize of £2500.
+                    <br>
+                    <br>
+                    There will be 300 seats that will be availible with the purchase of an event ticket which you can
+                    purchase on the <a href="booking.html">Booking</a> tab.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerContent">
+                <p>Email: info@sec.co.uk</p>
+                <p>Phone: 0141 248 3000</p>
+                <p>Location: SEC Centre, Exhibition Way, G3 8YW</p>
+            </div>
+            <div class="footerSocials">
+                <a href="https://instagram.com">
+                    <img src="images/social/instagram.svg" alt="">
+                </a>
+                <a href="https://x.com">
+                    <img src="images/social/twitterx.svg" alt="">
+                </a>
+                <a href="https://tiktok.com">
+                    <img src="images/social/tiktok.svg" alt="">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="images/social/youtube.svg" alt="">
+                </a>
+                <p>
+                    Xtreme eSports 2024 ©
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

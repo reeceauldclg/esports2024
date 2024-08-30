@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/clydeLogo.png" type="image/x-icon">
+    <script src="js/sideNav.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="burger">
+            <span onclick="openNav()">
+                <button>
+                    <img src="images/burger.svg" alt="">
+                </button>
+            </span>
+        </div>
+        <div class="headerText">
+            <img src="images/xtreme.svg" alt="">
+        </div>
+        <a href="index.html">
+            <img src="images/clydeLogo.png" alt="Logo">
+        </a>
+    </header>
+    <div id="pageSideNav" class="sideNav">
+        <img src="images/clydeLogo.png" alt="">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Booking</a>
+        <a href="information.html">Information</a>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="events.html">Events</a>
+            </li>
+            <li>
+                <a href="booking.html">Booking</a>
+            </li>
+            <li>
+                <a href="information.html">Information</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="backgroundsContainer">
+        <img class="background showing" src="images/banner/bannerImg1.jpg" alt="">
+        <img class="background" src="images/banner/bannerImg2.jpg" alt="">
+    </div>
+    <script src="js/transition.js"></script>
+    <div class="textContainerH">
+        <div class="text1H">
+            <h3>Event Description</h3>
+            <p>
+                Xtreme Gaming Events © is hosting multiple gaming competitions in the SECC in Glasgow.
+                The event will take place on the 25th and 26th of May 2024 from 10am until 4pm.
+                The competitions are being held in different areas of the area.
+                There will be 500 seats in each area of the arena to watch the competitions.
+                The games played in these competitions will be on Counter-Strike 2, Rocket League and Fortnite.
+                <br>
+                <br>
+                You can can read more details on each competitions on the <a href="events.html">Events</a> tab.
+                <br>
+                You can book tickets on the <a href="booking.html">Booking</a> tab.
+                <br>
+                You can read find out more about the event on the <a href="information.html">Information</a> tab.
+            </p>
+        </div>
+    </div>
+    <div class="videoH">
+        <iframe src="https://www.youtube.com/embed/box4SFtGvA0"
+            title="Esports: Inside the relentless training of professional gaming stars"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerContent">
+                <p>Email: info@sec.co.uk</p>
+                <p>Phone: 0141 248 3000</p>
+                <p>Location: SEC Centre, Exhibition Way, G3 8YW</p>
+            </div>
+            <div class="footerSocials">
+                <a href="https://instagram.com">
+                    <img src="images/social/instagram.svg" alt="">
+                </a>
+                <a href="https://x.com">
+                    <img src="images/social/twitterx.svg" alt="">
+                </a>
+                <a href="https://tiktok.com">
+                    <img src="images/social/tiktok.svg" alt="">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="images/social/youtube.svg" alt="">
+                </a>
+            </div>
+            <div class="footerCopyright">
+                <p>
+                    Xtreme eSports 2024 ©
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
